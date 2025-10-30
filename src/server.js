@@ -3,7 +3,7 @@ const express = require("express");
 const cors = require("cors");
 const axios = require("axios");
 const mongoose = require("mongoose");
-const History = require("./models/History");
+const History = require("../models/History");
 
 const app = express();
 
